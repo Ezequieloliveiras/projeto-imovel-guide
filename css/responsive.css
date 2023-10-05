@@ -42,10 +42,8 @@
 @media (min-width: 219px) and (max-width: 919px) {
     .footer{
         position: relative;
-        display: block;
+        display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        left: -15px;
         padding-right: 5px;
         height: 300px;
     }
