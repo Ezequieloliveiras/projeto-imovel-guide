@@ -14,29 +14,50 @@
 
 @media (min-width: 200px) and (max-width: 490px) {
     .box-one {
-        margin: 0px 0px  50px 0px;
+        margin: 0px 0px 50px 0px;
     }
+
     .box-two {
-        margin: 0px 0px  50px 0px;
+        margin: 0px 0px 50px 0px;
     }
+
     .box-three {
-        margin: 0px 0px  50px 0px;
+        margin: 0px 0px 50px 0px;
     }
+
     .box-for {
-        margin: 0px 0px  80px 0px;
+        margin: 0px 0px 80px 0px;
     }
+
     .box-five {
-        margin: 0px 0px  80px 0px;
+        margin: 0px 0px 80px 0px;
     }
+
     .box-six {
         margin: 10px 0px;
     }
 
     .name {
-        position: absolute;
-        width: 90px;
-        left: 250px;
+        padding-right: 50px;
+        width: 150px;
     }
+}
+
+
+@media (min-width: 569px)  {
+
+    .img-1,
+    .img-2 {
+       
+        margin-right: 50px;
+    }
+
+    .name {
+        padding-right: 50px;
+        width: 150px;
+    }
+
+
 }
 
 @media screen and (max-width: 570px) {
@@ -59,22 +80,23 @@
         margin-top: 1px;
     }
 
-    .img-1,
-    .img-2 {
-        margin-right: 10px;
-    }
+ 
+
+
 }
 
 
 @media (min-width: 219px) and (max-width: 919px) {
-   
+
+
+
     .footer-text {
         font-size: 10px;
         padding-right: 15px;
     }
 
     .footer-logo {
-        width:20%;
+        width: 20%;
     }
 }
 
