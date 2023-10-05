@@ -41,10 +41,14 @@
         padding-right: 50px;
         width: 150px;
     }
+
+    .telephone {
+        font-size: 10px;
+    }
 }
 
 
-@media (min-width: 569px)  {
+@media (min-width: 569px) and (max-width: 400px)  {
 
     .img-1,
     .img-2 {
@@ -79,16 +83,10 @@
         margin: 1px 0;
         margin-top: 1px;
     }
-
- 
-
-
 }
 
 
 @media (min-width: 219px) and (max-width: 919px) {
-
-
 
     .footer-text {
         font-size: 10px;
@@ -107,7 +105,6 @@
 }
 
 
-
 @media screen and (min-width: 570px) {
     .modal-content {
         width: 90%;
@@ -122,7 +119,6 @@
         transform: translate(-50%, -50%);
     }
 }
-
 
 @media screen and (max-width: 1095px) {
     .mobile-menu-icon {
