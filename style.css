@@ -162,9 +162,9 @@ h4 {
 }
 
 .box-five {
+    position: relative;
     width: 320px;
     height: 300px;
-    border: 1px solid #787878;
     margin: 50px 70px 50px 70px;
     border-radius: 5px;
 }
@@ -172,7 +172,6 @@ h4 {
 .box-six {
     width: 320px;
     height: 300px;
-    border: 1px solid #787878;
     margin: 50px 70px 50px 70px;
     border-radius: 5px;
 }
@@ -339,6 +338,28 @@ p {
     position: absolute;
     left: -1px;
     bottom: -50px;
+    width: 320px;
+    height: 30px;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: #FE6613;
+    border: 1px solid #FE6613;
+    color: white;
+}
+
+.btn-modal2 {
+    position: absolute;
+    width: 320px;
+    height: 30px;
+    bottom: -50px;
+    font-weight: 300;
+    border-radius: 5px;
+    background-color: #FE6613;
+    border: 1px solid #FE6613;
+    color: white;
+}
+
+.btn-modal3 {
     width: 320px;
     height: 30px;
     font-weight: 300;
