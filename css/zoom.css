@@ -1,0 +1,27 @@
+/* CSS */
+#imagem-zoom {
+    width: 100%; /* Tamanho original */
+    transform: scale(2); /* Sem zoom (tamanho original) */
+}
+
+#imagem-zoom.zoomed {
+    transform: scale(0.5); /* Reduz o tamanho pela metade (zoom out) */
+}
+
+#elemento-animado {
+    width: 100%;
+    height: 100%;
+}
+
+#imagem-zoom {
+    width: 100%;
+    height: 100%;
+    transition: transform 20s ease; /* Transição suave (2 segundos) para o efeito de zoom */
+}
+
+.zoomed {
+    transform: scale(1.5); /* Aplica um zoom de 1.5x na imagem */
+}
+
+
+
