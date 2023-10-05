@@ -35,7 +35,6 @@
     .img-1, .img-2 {
         margin-right: 10px;
     }
-    
 }
 
 @media screen and (min-width: 570px) {
@@ -51,8 +50,6 @@
         justify-content: center;
         transform: translate(-50%, -50%);
     }
-
-    
 }
 
 
@@ -76,7 +73,6 @@
 
     .mobile-menu.show {
         display: block;
-
     }
 
     .modal-body {

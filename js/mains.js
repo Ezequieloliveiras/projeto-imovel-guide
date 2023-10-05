@@ -1,26 +1,25 @@
 //SCRIPT MAIN
 
-let openModalBtn = document.getElementById("openModalBtn")
-let modal = document.getElementById("myModal")
+let openModalBtn = document.querySelector("#openModalBtn")
+let modal = document.querySelector("#myModal")
 let closeModalBtn = document.querySelector(".close")
 
 
-closeModalBtn.addEventListener("click", function () {
+closeModalBtn.addEventListener("click", () => {
     modal.style.display = "none"
 })
 
-window.addEventListener("click", function (event) {
+window.addEventListener("click", (event) => {
     if (event.target == modal) {
         modal.style.display = "none"
     }
 })
 
-
 // MENU
 
-const mobileMenuIcon = document.getElementById("mobile-menu-icon")
-const mobileMenu = document.getElementById("mobile-menu")
-const mobileMenuSecond = document.getElementById("mobile-menu-second")
+const mobileMenuIcon = document.querySelector("#mobile-menu-icon")
+const mobileMenu = document.querySelector("#mobile-menu")
+const mobileMenuSecond = document.querySelector("#mobile-menu-second")
 
 
 mobileMenuIcon.addEventListener("click", () => {
@@ -66,10 +65,9 @@ numbers.addEventListener('keypress', () => {
     }
 })
 
-
 //CALCULATOR
 
-document.querySelector('#calculator').addEventListener('click', function () {
+document.querySelector('#calculator').addEventListener('click', () => {
     const num1 = parseFloat(document.querySelector('#num1').value)
     const num2 = parseFloat(document.querySelector('#num2').value)
     const num3 = parseFloat(document.querySelector('#num3').value)
@@ -89,7 +87,6 @@ document.querySelector('#calculator').addEventListener('click', function () {
 
 })
 
-
 // ZOOM
 
 let imagemZoom = document.querySelector('#imagem-zoom')
@@ -102,7 +99,7 @@ function aplicarZoomAutomatico() {
 }
 
 // Adicione um ouvinte de evento 'load' para chamar a função após o carregamento da página
-window.addEventListener('load', function () {
+window.addEventListener('load', () => {
     if (!zoomed) {
         // Se o zoom não foi aplicado durante o refresh, aplique-o automaticamente
         imagemZoom.style.transform = 'scale(1.5)'
@@ -111,6 +108,13 @@ window.addEventListener('load', function () {
 })
 
 // Adicione um ouvinte de evento 'beforeunload' para remover a classe 'zoomed' antes de descarregar a página
-window.addEventListener('beforeunload', function () {
+window.addEventListener( () => {
     imagemZoom.classList.remove('zoomed')
 })
+
+
+//
+
+html2canvas(document.querySelector("#capture")).then(canvas => {
+    document.body.appendChild(canvas)
+});
