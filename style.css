@@ -17,7 +17,7 @@ body {
     width: 100%;
     height: 70px;
     background-color: #1B2653;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 .img {
@@ -46,6 +46,7 @@ h4 {
 
 .menu {
     display: flex;
+    margin-top: 15px;
 }
 
 .menu li {
@@ -66,6 +67,7 @@ h4 {
 
 .menu-second {
     display: flex;
+    margin-top: 15px;
 }
 
 .menu-second li {
