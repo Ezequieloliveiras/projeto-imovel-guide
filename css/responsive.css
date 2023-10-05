@@ -12,6 +12,19 @@
     margin: 3px 0;
 }
 
+@media (min-width: 200px) and (max-width: 647px) {
+    .footer {
+        height: 120px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .know-more {
+        padding: 0;
+    }
+}
+
 @media (min-width: 200px) and (max-width: 490px) {
     .box-one {
         margin: 0px 0px 50px 0px;
@@ -47,8 +60,18 @@
     }
 }
 
+@media (min-width: 200px) and (min-width: 399px) {
+    .img-1,
+    .img-2 {
+       
+        margin-left: 30px;
+    }
 
-@media (min-width: 569px) and (max-width: 400px)  {
+    
+
+}
+
+@media (min-width: 400px) and (max-width:1000px)  {
 
     .img-1,
     .img-2 {
@@ -62,6 +85,19 @@
     }
 
 
+}
+
+@media (min-width: 1001px) {
+    .img-1,
+    .img-2 {
+       
+        margin-right: 50px;
+    }
+
+    .name {
+        padding-right: 50px;
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 570px) {
