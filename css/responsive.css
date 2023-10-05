@@ -109,7 +109,7 @@
     }
 
     .modal-dialog {
-        position: absolute;
+        
         justify-content: center;
         transform: translate(-50%, -50%);
     }
@@ -141,20 +141,46 @@
 }
 
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 400px) and (max-width: 860px) {
     .modal-content {
         width: 90%;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 30px;
     }
 
     .modal-dialog {
-        position: absolute;
+       
         justify-content: center;
         transform: translate(-50%, -50%);
     }
+
+    .modal-body {
+        margin-top: 20px;
+    }
 }
+
+@media screen and (min-width: 861px) {
+    .modal-content {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .modal-dialog {
+       
+        justify-content: center;
+        transform: translate(-50%, -50%);
+    }
+
+    .modal-body {
+        margin-top: 20px;
+    }
+}
+
 
 @media screen and (max-width: 1095px) {
     .mobile-menu-icon {
