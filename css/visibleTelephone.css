@@ -1,0 +1,21 @@
+
+.telephone-toggle {
+    display: none;
+}
+
+.telephone-label {
+    font-size: 10px;
+    color: #FE6613;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.telephone-toggle:checked + .telephone {
+    display: block;
+}
+
+.telephone {
+    display: none;
+}
+
+

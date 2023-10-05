@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Imóvel Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/visibleTelephone.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="img" src="img/logo-imovel-guide.webp" alt="logo">
+        <div class="mobile-menu-icon" id="mobile-menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="mobile-menu" id="mobile-menu">
+            <ul class="menu">
+                <li>
+                    <a href="#">Condomínios</a>
+                </li>
+                <li>
+                    <a href="#">Fórum</a>
+                </li>
+                <li>
+                    <a href="#">Guia</a>
+                </li>
+                <li>
+                    <a href="#">Artigos</a>
+                </li>
+                <li>
+                    <a href="#">Ferramentas</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile-menu-second" id="mobile-menu-second">
+            <ul class="menu-second">
+                <li>
+                    <a href="#">Cotar Imóvel</a>
+                </li>
+                <li>
+                    <a href="#">Planos</a>
+                </li>
+                <li>
+                    <a href="#">Entrar</a>
+                </li>
+            </ul>
+            <button class="register">CADASTRE-SE</button>
+        </nav>
+    </header>
+    <div class="container1">
+        <div class="box-one">
+            <div class="album">
+
+                <div class="img-1">
+                    <img src="img/img-1.jpg" alt="img" class="image-1">
+                </div>
+
+                <div class="img-2">
+                    <img src="img/img-2.jpg" alt="img" class="image-2">
+                </div>
+
+            </div>
+            <div class="names">
+                <div class="name">
+                    <h1>José Alberto</h1>
+                    <p>3.000 pontos</p>
+                    <label for="telephone-toggle1" class="telephone-label">Ver telefone</label>
+                    <input type="checkbox" id="telephone-toggle1" class="telephone-toggle">
+                    <div class="telephone">(99)9999-9999</div>
+                </div>
+                <div class="name">
+                    <h1>Marcos Luiz</h1>
+                    <p>1.260 pontos</p>
+                    <label for="telephone-toggle2" class="telephone-label">Ver telefone</label>
+                    <input type="checkbox" id="telephone-toggle2" class="telephone-toggle">
+                    <div class="telephone">(99) 9999-9999</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="box-two">
+            <p class="title">Mande uma Mensagem:</p>
+            <input type="text" placeholder="Digite seu CPF" autocomplete="off" maxlength="14" id="cpf">
+            <input type="text" placeholder="Digite seu telefone" maxlength="16" id="numbers">
+            <input type="text" placeholder="Digite o assunto" id="text">
+            <button type="submit" id="button">Enviar Mensagem</button>
+        </div>
+        <div class="box-three">
+            <p class="title">Regra de 3</p>
+            <div class="content">
+                <input type="number" placeholder="60" id="num1">
+                <hr class="line-calculator">
+                <input type="number" placeholder="100" id="num2">
+                <input type="number" placeholder="30" id="num3">
+                <hr class="line-calculator">
+                <div id="result"></div>
+            </div>
+            <button id="calculator">Clacular</button>
+        </div>
+        <div class="box-for">
+            <img src="/img/imagem-casa.png" class="img-modal" alt="Imagem">
+            <div class="container mt-5">
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <hr class="line-modal">
+                            <div class="modal-body">
+                                <img src="/img/imagem-casa.png" class="img-fluid" alt="Imagem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn-modal" data-toggle="modal" data-target="#myModal">
+                Abrir imagem no modal
+            </button>
+        </div>
+        <div class="box-five"></div>
+        <div class="box-six"></div>
+    </div>
+
+    <script src="/js/documents.js"></script>
+    <script src="/js/menu.js"></script>
+    <script src="/js/calculator.js"></script>
+   
+</body>
+
+</html>
