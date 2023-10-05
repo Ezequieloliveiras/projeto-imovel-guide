@@ -331,6 +331,7 @@ p {
 #result {
     height: 30px;
     width: 120px;
+    padding-left: 5px;
     border: 2px solid #FE6613;
     border-radius: 5px;
 }

@@ -17,7 +17,7 @@
         width: 90%;
         display: flex;
         justify-content: center;
-        align-items: center ;
+        align-items: center;
     }
 
     .modal-dialog {
@@ -31,18 +31,71 @@
         margin: 1px 0;
         margin-top: 1px;
     }
-    
-    .img-1, .img-2 {
+
+    .img-1,
+    .img-2 {
         margin-right: 10px;
     }
 }
+
+
+@media (min-width: 219px) and (max-width: 919px) {
+    .footer{
+        position: relative;
+        display: block;
+        flex-direction: column;
+        justify-content: flex-start;
+        left: -15px;
+        padding-right: 5px;
+        height: 300px;
+    }
+
+    .know-more {
+        position: absolute;
+        left: -25px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .know-more p {
+        display: flex;
+        padding-left: 0;
+    }
+
+    .content-guide {
+        font-size: 5px;
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-text {
+        font-size: 10px;
+        padding-right: 15px;
+    }
+
+    .footer-logo {
+        width:20%;
+    }
+}
+
+@media (min-width: 920px) and (max-width: 958px) {
+    .footer-text {
+        padding-right: 5px;
+    }
+}
+
+
 
 @media screen and (min-width: 570px) {
     .modal-content {
         width: 90%;
         display: flex;
         justify-content: center;
-        align-items: center ;
+        align-items: center;
     }
 
     .modal-dialog {
@@ -85,5 +138,3 @@
         margin-top: 40px;
     }
 }
-
-

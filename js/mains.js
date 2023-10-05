@@ -89,29 +89,5 @@ document.querySelector('#calculator').addEventListener('click', () => {
 
 // ZOOM
 
-let imagemZoom = document.querySelector('#imagem-zoom')
-let zoomed = false // Variável para controlar o estado de zoom
 
-// Função para aplicar o zoom automaticamente ao carregar a página
-function aplicarZoomAutomatico() {
-    imagemZoom.classList.add('zoomed')
-    zoomed = true
-}
-
-// Adicione um ouvinte de evento 'load' para chamar a função após o carregamento da página
-window.addEventListener('load', () => {
-    if (!zoomed) {
-        // Se o zoom não foi aplicado durante o refresh, aplique-o automaticamente
-        imagemZoom.style.transform = 'scale(1.5)'
-        imagemZoom.classList.add('zoomed')
-    }
-})
-
-// Adicione um ouvinte de evento 'beforeunload' para remover a classe 'zoomed' antes de descarregar a página
-window.addEventListener( () => {
-    imagemZoom.classList.remove('zoomed')
-})
-
-
-//
 
