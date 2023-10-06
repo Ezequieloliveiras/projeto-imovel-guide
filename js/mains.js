@@ -89,5 +89,29 @@ document.querySelector('#calculator').addEventListener('click', () => {
 
 // ZOOM
 
+let imagemZoom = document.getElementById('imagem-zoom')
+let zoomed = false // Variável para controlar o estado de zoom
+
+
+function aplicarZoomAutomatico() {
+    imagemZoom.classList.add('zoomed')
+    zoomed = true
+}
+
+
+window.addEventListener('load', function () {
+    if (!zoomed) {
+        // Se o zoom não foi aplicado durante o refresh, aplique-o automaticamente
+        imagemZoom.style.transform = 'scale(1.5)'
+        imagemZoom.classList.add('zoomed')
+    }
+})
+
+// Adicione um ouvinte de evento 'beforeunload' para remover a classe 'zoomed' antes de descarregar a página
+window.addEventListener('beforeunload', function () {
+    imagemZoom.classList.remove('zoomed');
+});
+
+
 
 
