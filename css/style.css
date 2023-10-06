@@ -356,10 +356,23 @@ p {
     width: 320px;
     height: 30px;
     bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 300;
     border-radius: 5px;
     background-color: #FE6613;
     border: 1px solid #FE6613;
+    color: white;
+}
+
+.box-five a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.box-five a:hover {
+    font-weight: 400;
     color: white;
 }
 
