@@ -23,5 +23,9 @@
     transform: scale(1.5); /* Aplica um zoom de 1.5x na imagem */
 }
 
+.img-modal {
+    border-radius: 5px;
+}
+
 
 
