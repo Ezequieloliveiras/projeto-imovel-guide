@@ -248,6 +248,7 @@ p {
 }
 
 .telephone {
+    font-size: 12px;
     margin-top: 5px;
     font-weight: bold;
     color: #FE6613;
