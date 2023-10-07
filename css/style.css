@@ -23,7 +23,7 @@ body {
 
 
 .img {
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 h4 {
@@ -58,6 +58,10 @@ h4 {
 .menu {
     display: flex;
     margin-top: 15px;
+}
+
+li {
+    list-style: none;
 }
 
 .menu li a {
