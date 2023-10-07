@@ -1,9 +1,3 @@
-.mobile-menu-icon {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 10px;
-}
 
 .bar {
     width: 30px;
@@ -207,8 +201,7 @@
     }
 }
 
-
-@media screen and (max-width: 1095px) {
+@media screen and (max-width: 1232px) {
     .mobile-menu-icon {
         display: flex;
         justify-content: flex-start;
@@ -239,4 +232,77 @@
         margin: 5px 0;
         margin-top: 40px;
     }
+
+    .header {
+        position: relative;
+    }
+
+    nav ul  {
+        position: absolute;
+        top: 56px;
+        right: 0.1%;
+        flex-direction: column;
+        width: 150px;
+        z-index: 999;
+    }
+
+    li {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #1B2653;
+    }
+
+    .mobile-menu {
+        padding-top: 755px;
+    }
+
+    .menu li {
+        list-style: none;
+    }
+
+    .register {
+        position: relative;
+        display: flex;
+        width: 150px;
+        margin: 0;
+        padding: 26px 15px;
+        border-radius: 0px;
+        border: none;
+        background: #1B2653;
+    }
+ 
+}
+
+@media screen and (min-width: 1233px) {
+
+    .header {
+        position: relative;
+    }
+
+    .register {
+        right: 10px;
+        position: absolute;
+    }
+
+    .li1 {
+        right: 335px;
+        position: absolute;
+        list-style: none;
+    }
+
+    .li2 {
+        right: 255px;
+        position: absolute;
+        list-style: none;
+    }
+
+    .li3 {
+        right: 185px;
+        position: absolute;
+        list-style: none;
+    }
+
+
 }
