@@ -203,6 +203,7 @@
 }
 
 @media screen and (max-width: 1232px) {
+
     .mobile-menu-icon {
         display: flex;
         justify-content: flex-start;
@@ -240,8 +241,8 @@
 
     nav ul {
         position: absolute;
-        top: 55.5px;
-        right: 0%;
+        top: 55px;
+        right: 0.1%;
         flex-direction: column;
         width: 150px;
         z-index: 999;
@@ -253,6 +254,7 @@
         justify-content: center;
         flex-direction: column;
         background-color: #1B2653;
+        border-bottom: 1px solid #ffffff
     }
 
     .mobile-menu {
@@ -261,6 +263,10 @@
 
     .menu li {
         list-style: none;
+    }
+
+    .menu li a {
+        padding: 26px 15px;
     }
 
     .register {
@@ -284,30 +290,48 @@
 
     .register {
         right: 30px;
+        top: 16px;
         position: absolute;
     }
 
-    .menu .li1 a, 
-    .menu .li2 a,
-    .menu .li3 a,
-    .menu .li4 a,
-    .menu .li5 a {
-        padding: 26px 9px;
+    .mobile-menu {
+        margin-bottom: 23px;
+    }
+
+    .li1 {
+        left: 210px;
+        position: absolute;
+    }
+    .li2 {
+        left: 325px;
+        position: absolute;
+    }
+    .li3 {
+        left: 390px;
+        position: absolute;
+    }
+    .li4 {
+        left: 440px;
+        position: absolute;
+    }
+    .li5 {
+        left: 510px;
+        position: absolute;
+        margin-bottom: 50px;
     }
 
     .li6 {
-        right: 305px;
+        right: 321px;
         position: absolute;
     }
 
     .li7 {
-        right: 235px;
+        right: 253px;
         position: absolute;
     }
 
     .li8 {
-        right: 173px;
-       
+        right: 190px;
         position: absolute;
     }
 
